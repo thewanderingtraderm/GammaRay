@@ -9,6 +9,7 @@
   SPDX-License-Identifier: GPL-2.0-or-later
 
   Contact KDAB at <info@kdab.com> for commercial licensing options.
+  ii
 */
 
 #include "associativepropertyadaptor.h"
