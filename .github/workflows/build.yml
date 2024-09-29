@@ -181,3 +181,8 @@ jobs:
         if: ${{ failure() }}
         with:
           path: "./build-${{ matrix.config.preset }}/Testing/Temporary/LastTest.log"
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v4.4.0
+        with:
+              name: my-artifact
+              path: "./build-${{ matrix.config.preset }}/"
