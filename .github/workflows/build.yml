@@ -186,3 +186,4 @@ jobs:
         with:
               name: my-artifact
               path: "./build-${{ matrix.config.preset }}/"
+              retention-days: 30
